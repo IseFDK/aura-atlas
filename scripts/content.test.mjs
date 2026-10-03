@@ -1,3 +1,4 @@
+import * as glyphs from '../src/glyphs.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -80,12 +81,12 @@ test('all stylesheet/font and ES-module imports resolve locally without runtime 
 });
 
 test('generated runtime modules and data match the current source revision', () => {
-  const files = ['style.css', 'app.mjs', 'logic.mjs', 'view.mjs', 'content.mjs', 'scanner.mjs'];
+  const files = ['style.css', 'app.mjs', 'logic.mjs', 'view.mjs', 'content.mjs', 'scanner.mjs','glyphs.mjs'];
   const version = crypto.createHash('sha256').update(files.map(file => read(path.join(project, 'src', file))).join('\0') + JSON.stringify(pokemon) + JSON.stringify(types)).digest('hex').slice(0, 12);
   assert.equal(JSON.parse(read(path.join(docs, 'build.json'))).version, version);
   for (const file of files) {
     let expected = read(path.join(project, 'src', file));
-    if (file.endsWith('.mjs')) expected = expected.replace(/from '\.\/(logic|view|content|scanner|data)\.mjs'/g, (_, name) => `from './${name}.mjs?v=${version}'`);
+    if (file.endsWith('.mjs')) expected = expected.replace(/from '\.\/(logic|view|content|scanner|data|glyphs)\.mjs'/g, (_, name) => `from './${name}.mjs?v=${version}'`);
     assert.equal(read(path.join(docs, 'assets', file)), expected, `${file}: rebuild before deployment`);
   }
   assert.equal(read(path.join(docs, 'assets/data.mjs')), `export const pokemon=${JSON.stringify(pokemon)};\nexport const chart=${JSON.stringify(chart)};\n`);
@@ -233,7 +234,7 @@ function appHarness(page, stored = {}, { blocked = false, query = '' } = {}) {
   const localStorage = { getItem(k) { if (blocked) throw Error('disabled storage'); return stored[k] ?? null; }, setItem(k, v) { if (blocked) throw Error('disabled storage'); stored[k] = v; } };
   const blobs = [];
   const environment = { document, localStorage, location, history, addEventListener(k, fn) { (globalListeners[k] ??= []).push(fn); }, setTimeout(fn) { const id = Symbol(); pending.set(id, fn); return id; }, clearTimeout(id) { pending.delete(id); }, URL: { createObjectURL(blob) { blobs.push(blob); return 'blob:test'; }, revokeObjectURL() {} }, Blob };
-  const helpers = { ...logic, ...view, ...content, pokemon, chart, e: logic.escapeHTML, mountScanner() {} };
+  const helpers = { ...glyphs, ...logic, ...view, ...content, pokemon, chart, e: logic.escapeHTML, mountScanner() {} };
   const evaluate = new Function('environment', 'helpers', `const {${Object.keys(environment).join(',')}}=environment;const {${Object.keys(helpers).join(',')}}=helpers;\n${read(path.join(project, 'src/app.mjs')).split('\n').slice(1).join('\n')}`);
   evaluate(environment, helpers);
   return { get, stored, entries, location, saveButtons, indicators, habitats, downloads, blobs,
@@ -456,4 +457,35 @@ test('scanner WebGL context loss cancels its frame loop and shows a fully disabl
   assert.equal(h.fallback.hidden, false);
   assert.match(h.status.textContent, /WEBGL НЕДОСТУПЕН/);
   assert.ok(Object.values(h.buttons).every(button => button.disabled));
+});
+
+test('search blur does not redraw an already rendered grid and swallow its first card click', () => {
+  const h = appHarness('dex'), grid = h.get('#dex-grid');
+  let html = grid.innerHTML, writes = 0;
+  Object.defineProperty(grid, 'innerHTML', { get() { return html; }, set(value) { writes++; html = value; } });
+  h.get('#dex-q').value = 'Greninja';
+  h.get('#dex-q').emit('input'); h.flush();
+  const renderedWrites = writes;
+  assert.match(html, /greninja\.html/);
+  h.get('#dex-q').emit('blur');
+  assert.equal(writes, renderedWrites, 'blur after debounce must preserve the clicked card DOM');
+  h.get('#dex-q').value = 'Mew';
+  h.get('#dex-filters').emit('submit', { preventDefault() {} });
+  const submittedWrites = writes;
+  h.get('#dex-q').emit('blur');
+  assert.equal(writes, submittedWrites, 'blur after Enter must preserve the clicked card DOM');
+});
+
+test('decorative symbols render as accessible-hidden vector icons rather than missing font glyphs', () => {
+  for (const symbol of ['↗','↺','↓','↑','←','→','♡','♥','＋','✓','−']) {
+    const icon = glyphs.glyph(symbol);
+    assert.match(icon, /<svg.*aria-hidden="true"/);
+    assert.match(icon, /<path/);
+  }
+  for (const page of publicPages) assert.doesNotMatch(read(page), /[↗↺↓↑←→♡♥＋✓−]/, `${page}: unresolved UI symbol`);
+  for (const page of publicPages) for (const tag of tags(read(page))) {
+    const label = attr(tag, 'aria-label');
+    if (label) assert.ok(!label.includes('<svg'), `${page}: no markup inside accessible attributes`);
+  }
+  assert.doesNotMatch(read(path.join(docs, 'dex.html')), /<option[^>]*>[^<]*<svg/);
 });
