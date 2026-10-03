@@ -1,0 +1,22 @@
+{
+  "asset": "hero-greninja",
+  "provenance": "Original AI-generated Pokémon fan art created with the built-in image_gen tool, not retrieved artwork.",
+  "generator": "image_gen.imagegen",
+  "generated_at": "2026-10-03T23:09:46Z",
+  "prompt": "Use case: stylized-concept. Asset type: cinematic wide landscape website hero for AURA ATLAS, an atmospheric Pokémon field station portfolio. Create original fan-art, approximately 1536x1024 aspect ratio 3:2. Scene/backdrop: an ancient misty teal mountain lake with distant layered mountains, wet mossy weathered rock and a few wet leaves at the foreground edge. Subject: accurate recognizable Greninja Pokémon, navy blue amphibian ninja with long pink tongue scarf, large angular white eye patches and alert crimson eyes, poised in a dynamic elegant crouch on a weathered stone. Greninja should occupy the RIGHT half of the composition, large and legible, not cut off; its body should be slim and agile, its long limbs and three-finger hands distinctly frog-like, its scarf delicately flowing. The LEFT half is soft open teal mist with distant water and faint silhouette mountains, uncluttered usable negative space for typography overlay. Style/medium: sophisticated museum-quality concept art, ink and watercolor texture with atmospheric naturalistic rendering, editorial field-guide art direction. Lighting/mood: moody quiet blue-green twilight, soft luminous mist and restrained delicate gold light particles, pale light edges on the subject. Color palette: dark deep teal, navy, mossy green, muted pink, a little warm gold. Materials/textures: matte organic skin, weathered damp stone and moss, subtle paper-like brush grain; no glossy plastic. Constraints: scene art only; no text, logos, watermark, interface, collage, borders, lettering or extra Pokémon; avoid plastic toy look, chibi proportions, clutter on the left. Preserve breathing room in leftmost 45% of canvas.",
+  "original": {
+    "file": "hero-greninja-original.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2987286
+  },
+  "web": {
+    "file": "../public/hero-greninja.webp",
+    "width": 1440,
+    "height": 960,
+    "bytes": 93732,
+    "format": "WebP",
+    "quality": 40
+  },
+  "notes": "Full original retained. Web image resized and compressed using Pillow only; no content retouching. Subject sits on right; left is misty lake/mountains for layout overlay. Pokémon fan art, not an official Pokémon asset."
+}

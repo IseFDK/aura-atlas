@@ -1,0 +1,4 @@
+node_modules/
+art-originals/
+*.log
+artwork/*-original.png

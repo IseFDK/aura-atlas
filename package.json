@@ -1,0 +1,1 @@
+{"name":"aura-atlas","version":"1.0.0","private":true,"type":"module","description":"AURA ATLAS — неофициальный полевой атлас Pokémon","scripts":{"build":"node scripts/build.mjs","test":"node --test scripts/*.test.mjs","serve":"python3 -m http.server 4175 --directory docs"}}

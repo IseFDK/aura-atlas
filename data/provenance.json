@@ -1,0 +1,902 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-10-03",
+  "fetchedAt": "2026-10-03T23:11:24Z",
+  "canonicalSource": {
+    "name": "PokéAPI",
+    "url": "https://pokeapi.co/",
+    "documentation": "https://pokeapi.co/docs/v2",
+    "snapshotRepository": "https://github.com/PokeAPI/api-data",
+    "artworkRepository": "https://github.com/PokeAPI/sprites"
+  },
+  "retrievalMethod": "Connected GitHub read-only file API; canonical PokeAPI/api-data JSON mirror and base64 PNGs from PokeAPI/sprites official-artwork",
+  "scope": {
+    "species": 24,
+    "types": 18,
+    "forms": "Standard/default forms only; evolution conditions include full canonical species families and form/version-specific alternatives",
+    "typeChart": "Current main-series 18-type damage relations; dual types multiply. No ability, move, weather, item, Terastallization, or other battle modifiers"
+  },
+  "units": {
+    "height": "metres, converted from PokéAPI decimetres by dividing by 10",
+    "weight": "kilograms, converted from PokéAPI hectograms by dividing by 10",
+    "stats": "base stats, not level-specific battle stats"
+  },
+  "localization": {
+    "language": "ru",
+    "method": "Manually curated species and type display labels; English slugs and numeric canonical fields retain source values",
+    "evolutionSummaries": "Concise editorial Russian translations. The requirements array is canonical; consult its versionGroup and form fields for game-specific alternatives"
+  },
+  "disclaimers": [
+    "Unofficial fan project; not affiliated with or endorsed by Nintendo, Creatures, GAME FREAK, or The Pokémon Company.",
+    "Pokémon and Pokémon character names/artwork are trademarks and copyrighted property of their respective owners. Artwork is reproduced from the PokeAPI official-artwork repository; no ownership or general artwork licence is claimed.",
+    "PokéAPI is a community-maintained data source, not an official game API. Data is a dated local snapshot and may change or differ by game version.",
+    "Habitats, expedition narratives, field observations, mood tags and other editorial site copy are separate fan-written interpretation, not canonical facts."
+  ],
+  "files": [
+    {
+      "resource": "pokemon",
+      "id": 448,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/448/index.json",
+      "sha": "caf412b984fa7a6f237a066b40ca7cc26343c700"
+    },
+    {
+      "resource": "pokemon",
+      "id": 715,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/715/index.json",
+      "sha": "98187a30180baa41d26f000c97ad7f4969e47fec"
+    },
+    {
+      "resource": "pokemon",
+      "id": 658,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/658/index.json",
+      "sha": "2ce269489da64247daa48f661801e639e734d04a"
+    },
+    {
+      "resource": "pokemon",
+      "id": 151,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/151/index.json",
+      "sha": "884f9189d4b0392685fdb27c1b859388d5f7b562"
+    },
+    {
+      "resource": "pokemon",
+      "id": 6,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/6/index.json",
+      "sha": "41cd91baf1802902bc8643ef3974eaccea371cd9"
+    },
+    {
+      "resource": "pokemon",
+      "id": 445,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/445/index.json",
+      "sha": "3dff7dd39e5998221308e585cd3fdf4b8216c7dc"
+    },
+    {
+      "resource": "pokemon",
+      "id": 714,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/714/index.json",
+      "sha": "0a55d51096362f7622d3045ce934683eeea1acfd"
+    },
+    {
+      "resource": "pokemon",
+      "id": 94,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/94/index.json",
+      "sha": "0bdeac7b0003b026c96e2b6dc81cc07586121b36"
+    },
+    {
+      "resource": "pokemon",
+      "id": 133,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/133/index.json",
+      "sha": "4c51bf20ca52fb04c59b1227877fcab16ac1eadb"
+    },
+    {
+      "resource": "pokemon",
+      "id": 131,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/131/index.json",
+      "sha": "83fae0d4e866271b8247da8b5b43c0d148ae4ab6"
+    },
+    {
+      "resource": "pokemon",
+      "id": 25,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/25/index.json",
+      "sha": "1bf6d963c830d5411453c8018a3362da2d0fbdde"
+    },
+    {
+      "resource": "pokemon",
+      "id": 197,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/197/index.json",
+      "sha": "8403f134f8c7e15d9e277cc8930f7cc40ba0274c"
+    },
+    {
+      "resource": "pokemon",
+      "id": 1,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/1/index.json",
+      "sha": "a366dde40b98cc36963f4c3e9472b53d89ef16a0"
+    },
+    {
+      "resource": "pokemon",
+      "id": 196,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/196/index.json",
+      "sha": "49ff46c735f867f08637cf758c87ba5a9be12815"
+    },
+    {
+      "resource": "pokemon",
+      "id": 134,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/134/index.json",
+      "sha": "44c52172d112f49e2c6f37d8e2541b0780154224"
+    },
+    {
+      "resource": "pokemon",
+      "id": 700,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/700/index.json",
+      "sha": "649b072f2c5d65168160facccdbac00513adb0fb"
+    },
+    {
+      "resource": "pokemon",
+      "id": 470,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/470/index.json",
+      "sha": "301a1e5e39cfa78a7caeb3d75d533ee165423dcc"
+    },
+    {
+      "resource": "pokemon",
+      "id": 212,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/212/index.json",
+      "sha": "4dc2ecce106cb6bf75d75cb0c76c807c93be9052"
+    },
+    {
+      "resource": "pokemon",
+      "id": 149,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/149/index.json",
+      "sha": "b41160263724d0ddc4174a2a2e59f8b9a8858518"
+    },
+    {
+      "resource": "pokemon",
+      "id": 471,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/471/index.json",
+      "sha": "1b366cade178cb26441f1f2135a9adb2ad09aaaa"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 658,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/658/index.json",
+      "sha": "9bdaac3459696df3495497ecdc4d5c7b3e4baa87"
+    },
+    {
+      "resource": "pokemon",
+      "id": 38,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/38/index.json",
+      "sha": "a8a3d020d01f0daa23fe871d8030606dba23d8c3"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 151,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/151/index.json",
+      "sha": "b68c3dde845b73c93fd8f5ae1548189c123bd063"
+    },
+    {
+      "resource": "pokemon",
+      "id": 248,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/248/index.json",
+      "sha": "846e067f970ddc7a97ae18cc16567868ef12c114"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 448,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/448/index.json",
+      "sha": "6bf5d1fa04ab0d4f9c99cbeca1a935ee5c5910af"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 445,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/445/index.json",
+      "sha": "741c298f3d83df4d50afd343bf57d3d462a9619d"
+    },
+    {
+      "resource": "pokemon",
+      "id": 350,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/350/index.json",
+      "sha": "183790db6fdd712d7758970ca923db7009e8a1c0"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 714,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/714/index.json",
+      "sha": "966b1efbb87c6037230053969b69f31abdef5b78"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 1,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/1/index.json",
+      "sha": "1f518e9cfeeb908934aeec6a6d3368c2c7025aa1"
+    },
+    {
+      "resource": "pokemon",
+      "id": 359,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon/359/index.json",
+      "sha": "eefbbd4b4a43a6b6230173c80fc2f04446fc377b"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 715,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/715/index.json",
+      "sha": "4e30066ee860508f275247c7f3598ee05818b52e"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 131,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/131/index.json",
+      "sha": "ae8181df38dab4df61959b89bf53edcffc5755ee"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 25,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/25/index.json",
+      "sha": "602950dbe68c2251b0725519e79830093d1075e4"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 6,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/6/index.json",
+      "sha": "32355eb0580b487b33e2c901fd8680f80cde87a8"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 94,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/94/index.json",
+      "sha": "06ece96782150fe6d441003886bf6138193b44f5"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 700,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/700/index.json",
+      "sha": "dba8988e24e86eeba8e8d976beccfe496c1d5757"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 133,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/133/index.json",
+      "sha": "882f684556508bf9f1c412046cc09d164df03889"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 196,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/196/index.json",
+      "sha": "42764e718029489529bfb9701a92f741ad490635"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 197,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/197/index.json",
+      "sha": "feef31409c28ea6b9c33626600041b3c51b6db75"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 471,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/471/index.json",
+      "sha": "ac2a93c2351a485a69f1282a877be31f7dcf53db"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 470,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/470/index.json",
+      "sha": "45e399ed6078308ff424d541a2ff87497dbc64fc"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 212,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/212/index.json",
+      "sha": "95569d7730e5aeff144b76aa5502be1f06fda6c7"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 248,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/248/index.json",
+      "sha": "bdc43f7ae5d88fe3babb22ecd1ae4eff73f86d2b"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 134,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/134/index.json",
+      "sha": "566e3705c9cb8525a887f84bbcbfad177ab46604"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 149,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/149/index.json",
+      "sha": "706d325c2801cd050ac9e18caa53d8f6479611ce"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 350,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/350/index.json",
+      "sha": "651d8832921b45ab23a291eb8b320cd91741f9c4"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 359,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/359/index.json",
+      "sha": "6ebde8c7ac5741154d3ba67117eb6b2c4f5ec151"
+    },
+    {
+      "resource": "pokemon-species",
+      "id": 38,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/pokemon-species/38/index.json",
+      "sha": "595f581e3f705f06984e812e62c92303f3113bad"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 232,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/232/index.json",
+      "sha": "8cc767fa4e2a4c59d2139645a612c50ad3787dee"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 230,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/230/index.json",
+      "sha": "f41b53388e83fa6e48e7be3678d79797664d1d07"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 1,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/1/index.json",
+      "sha": "3bb9b48cf1301aa2ecf2640c493bc3c3d4daddd9"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 367,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/367/index.json",
+      "sha": "f122d303848f21c5bd6d38b4cd0c65c18b209dca"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 78,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/78/index.json",
+      "sha": "6c3c169b1eb59b8c8ecea0b6f5105e92382ada9e"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 65,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/65/index.json",
+      "sha": "c492dd8ec8fce44ca28f14551cdaed10a12557e4"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 2,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/2/index.json",
+      "sha": "a2cf1cfb9c1856fa13961c9bfd69a2ad1f5a4186"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 339,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/339/index.json",
+      "sha": "ece34af967c7278b17e559eff6f6f3fe920e9912"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 10,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/10/index.json",
+      "sha": "b0c143a389d98c2388cd9d0d15875079ca2b705b"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 67,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/67/index.json",
+      "sha": "3769d32b6165068056ed2f3f16633ebda2ae13d8"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 40,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/40/index.json",
+      "sha": "6159b2f3692fd7816ce279ed64624b6e9168ec4c"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 58,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/58/index.json",
+      "sha": "0469e3cc4611c66cf32f826f5f8fd7e629769e26"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 76,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/76/index.json",
+      "sha": "c699662fdec8ba4d9cfacb3dd6db4393bc13ab0c"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 178,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/178/index.json",
+      "sha": "085d5edffe73c79c6189e281814fa40f2c909fd5"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 126,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/126/index.json",
+      "sha": "24b333378cf26ed35a9b7b9769be2b88d351c62e"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 15,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/15/index.json",
+      "sha": "ec35c7d926ad605a08717817fb82b781693fbda5"
+    },
+    {
+      "resource": "evolution-chain",
+      "id": 185,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/evolution-chain/185/index.json",
+      "sha": "e4d481dfe87e60644c2fa78bd66fd794c69f3edf"
+    },
+    {
+      "resource": "type",
+      "id": 1,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/1/index.json",
+      "sha": "c84049f4abcb99713aed385c1030919d8c904dac"
+    },
+    {
+      "resource": "type",
+      "id": 4,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/4/index.json",
+      "sha": "fda7177b71d0cd066cb0592b09604f856a2df910"
+    },
+    {
+      "resource": "type",
+      "id": 3,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/3/index.json",
+      "sha": "87647f4d662e08b0f2eff737ed497df24969baf7"
+    },
+    {
+      "resource": "type",
+      "id": 5,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/5/index.json",
+      "sha": "415e5db7c6ec4ec53aaeee12b8e877421e57d288"
+    },
+    {
+      "resource": "type",
+      "id": 6,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/6/index.json",
+      "sha": "5d773a162d7b776530a98eddf39a88b7337c2f05"
+    },
+    {
+      "resource": "type",
+      "id": 7,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/7/index.json",
+      "sha": "6feb9c8e273c7db5dd202ee0bc7ef74aa586ff14"
+    },
+    {
+      "resource": "type",
+      "id": 9,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/9/index.json",
+      "sha": "0bd1809edd6feb26f0e6dd42cfae8097a93786c1"
+    },
+    {
+      "resource": "type",
+      "id": 8,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/8/index.json",
+      "sha": "41a27bc47e7e237db51258a0c3280d48896811f2"
+    },
+    {
+      "resource": "type",
+      "id": 10,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/10/index.json",
+      "sha": "e2dba2b2dead70c55655931a003560257eefbd57"
+    },
+    {
+      "resource": "type",
+      "id": 2,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/2/index.json",
+      "sha": "ea80b6a1db7ff3478272d232ece2baf2f6770d22"
+    },
+    {
+      "resource": "type",
+      "id": 12,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/12/index.json",
+      "sha": "39e4212a1665da83a26d074d7c8e67c2c1f1eda1"
+    },
+    {
+      "resource": "type",
+      "id": 13,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/13/index.json",
+      "sha": "4b747ac1de3e78c24fa47d503db382ae2b98d8b8"
+    },
+    {
+      "resource": "type",
+      "id": 14,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/14/index.json",
+      "sha": "657c4c86757d2c399f472647359c82d312b1bb38"
+    },
+    {
+      "resource": "type",
+      "id": 15,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/15/index.json",
+      "sha": "d94b59c4235bc1f2cb27623f07700e3409c3def6"
+    },
+    {
+      "resource": "type",
+      "id": 16,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/16/index.json",
+      "sha": "93ac41541022e3efe91dadbc34e5402868ee7902"
+    },
+    {
+      "resource": "type",
+      "id": 11,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/11/index.json",
+      "sha": "b54d59484a2810decf82d398d4d0b46f96ebb4c7"
+    },
+    {
+      "resource": "type",
+      "id": 17,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/17/index.json",
+      "sha": "6caa8cb24a6c20bdb3815fd3d2bfe46208e57afa"
+    },
+    {
+      "resource": "type",
+      "id": 18,
+      "url": "https://github.com/PokeAPI/api-data/blob/master/data/api/v2/type/18/index.json",
+      "sha": "9241f10336262a5e148ed4b05fd463057d255e5d"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 658,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/658.png",
+      "sha": "709af937c080030a697f5275bca9565575820f62"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 715,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/715.png",
+      "sha": "db624d3971be5f9582db9ffdfdcb4c8c8cf3f562"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 445,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/445.png",
+      "sha": "5ab8b889d22fa0f17055f37d5175d478386d0939"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 714,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/714.png",
+      "sha": "fecd726c13a4e3b263fed8153430e5d85b982980"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 151,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/151.png",
+      "sha": "e99f365f4f4e8c48a554df218bef5e2562a51414"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 448,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/448.png",
+      "sha": "ccfcc5058272e53e787c8368ae3bf299d69936d2"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 133,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/133.png",
+      "sha": "4406687944d912eebb1436425ab443bd31f24491"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 25,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/25.png",
+      "sha": "16c1182c3747785aab301d6e801fba111ff759e2"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 6,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/6.png",
+      "sha": "4c4fb9175e8eacfa83d4f64b47fdbb92cf09f902"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 94,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/94.png",
+      "sha": "91ed467ffb7544ecea1e621547236f7ce9f9da9b"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 131,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/131.png",
+      "sha": "477b30424b258576e107add7cddbea0f19d98373"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 700,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/700.png",
+      "sha": "75a355dae5b9fcc9e9079bdc4b0653161817d2be"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 196,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/196.png",
+      "sha": "3e649bb58de3a28699b1831170cc27bfa8cf552f"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 1,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/1.png",
+      "sha": "ff6d4166fa19c07bf374ffbac90695528bf4444d"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 134,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/134.png",
+      "sha": "6748ae79e8f5780592c98df12d051045412f0163"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 197,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/197.png",
+      "sha": "dad12991d101f2887b81dac29ac3ae4053709931"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 471,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/471.png",
+      "sha": "311f03c4398ea592fad9985f26f1910041860fdb"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 470,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/470.png",
+      "sha": "11996d1641265d5c7ccf4a1b6736b21a21815cac"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 38,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/38.png",
+      "sha": "4c279253c18e68f6eb61181c9c793c9e8192a3a8"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 212,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/212.png",
+      "sha": "7bd224ad28a5b5fecbf0df98ebd005efa5bf1f03"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 248,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/248.png",
+      "sha": "6aa9434ae6fe7d97b2d1c947d01956d15c3eba8a"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 149,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/149.png",
+      "sha": "ed9b580e6cc050fcc0b562dd705fbbaa2d39f5f0"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 350,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/350.png",
+      "sha": "7c88259a905f9e11fdf24a6ff40065a1919a6e1b"
+    },
+    {
+      "resource": "official-artwork",
+      "id": 359,
+      "url": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/359.png",
+      "sha": "2c4d5abaa3cf63520aff8c062b6ca89aa14e837d"
+    }
+  ],
+  "artwork": [
+    {
+      "id": 1,
+      "file": "pokemon/1.webp",
+      "bytes": 28148,
+      "width": 475,
+      "height": 475,
+      "sha256": "fa4c1ce3cb3ce48baddd5d471495856549520811c7e0e3065afbe6989849547d",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/1.png"
+    },
+    {
+      "id": 6,
+      "file": "pokemon/6.webp",
+      "bytes": 31644,
+      "width": 475,
+      "height": 475,
+      "sha256": "bca19c5fdfd5f285afd6634cf8b67ff8cdc3926682ebe000241d11cb026ecba4",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/6.png"
+    },
+    {
+      "id": 25,
+      "file": "pokemon/25.webp",
+      "bytes": 22490,
+      "width": 475,
+      "height": 475,
+      "sha256": "af39144a3df09b6c8ee11047575ce496529f899c8b9dddb3262349ec44ef663e",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/25.png"
+    },
+    {
+      "id": 38,
+      "file": "pokemon/38.webp",
+      "bytes": 32118,
+      "width": 475,
+      "height": 475,
+      "sha256": "f88189229a37dfb8fbecd7cc306da257a45c6494059c2b5c2d7062629bd92336",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/38.png"
+    },
+    {
+      "id": 94,
+      "file": "pokemon/94.webp",
+      "bytes": 18278,
+      "width": 475,
+      "height": 475,
+      "sha256": "171b95b0dc33fe3170beb28a36335b75a21edaa93a827cf892c8e277701a1d2c",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/94.png"
+    },
+    {
+      "id": 131,
+      "file": "pokemon/131.webp",
+      "bytes": 24464,
+      "width": 475,
+      "height": 475,
+      "sha256": "7b793c051a4d4f45f01a54c790f285d466531da561fc0ad29749689f264db4b6",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/131.png"
+    },
+    {
+      "id": 133,
+      "file": "pokemon/133.webp",
+      "bytes": 25146,
+      "width": 475,
+      "height": 475,
+      "sha256": "a458e3bde5bd4d92a6cd82e829e813e7a75ae79a2a22e0d3f168773f90fc5e8b",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/133.png"
+    },
+    {
+      "id": 134,
+      "file": "pokemon/134.webp",
+      "bytes": 28954,
+      "width": 475,
+      "height": 475,
+      "sha256": "8a040b69d039fda942a45cbba0444fc43e0dbeee40a358e631565829dded11fe",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/134.png"
+    },
+    {
+      "id": 149,
+      "file": "pokemon/149.webp",
+      "bytes": 26860,
+      "width": 475,
+      "height": 475,
+      "sha256": "fc02288dc010cca9fffda0512c0787b81e9e42d88bf40ed83db6e391aecd977e",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/149.png"
+    },
+    {
+      "id": 151,
+      "file": "pokemon/151.webp",
+      "bytes": 24226,
+      "width": 475,
+      "height": 475,
+      "sha256": "355b1a1442617124e3c64c414c55027b4afcc8409fba40e7fb645a071930affe",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/151.png"
+    },
+    {
+      "id": 196,
+      "file": "pokemon/196.webp",
+      "bytes": 19916,
+      "width": 475,
+      "height": 475,
+      "sha256": "8ae7a9bd773fef986e11c4b68367d596b2974cd2a885bb34de7a761023bce8d4",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/196.png"
+    },
+    {
+      "id": 197,
+      "file": "pokemon/197.webp",
+      "bytes": 18232,
+      "width": 475,
+      "height": 475,
+      "sha256": "446571b8dcf02aeb69f8d404a6cb04c539cbe2604de4536c1c4a9e6cfb74efd6",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/197.png"
+    },
+    {
+      "id": 212,
+      "file": "pokemon/212.webp",
+      "bytes": 27048,
+      "width": 475,
+      "height": 475,
+      "sha256": "d2fec9ff4962e1fc89adde4a62875898ddc21b716267fdb360e3cd341ad6232b",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/212.png"
+    },
+    {
+      "id": 248,
+      "file": "pokemon/248.webp",
+      "bytes": 24974,
+      "width": 475,
+      "height": 475,
+      "sha256": "f58002a6d1a2d0666c5e3f0c26f890d784f8669afd4dba3d186c57f7ea88d620",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/248.png"
+    },
+    {
+      "id": 350,
+      "file": "pokemon/350.webp",
+      "bytes": 34780,
+      "width": 475,
+      "height": 475,
+      "sha256": "dbce6d236bcd261d123941e4bcdf26bd25eecdb2d2f0aa75d9612901e2705840",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/350.png"
+    },
+    {
+      "id": 359,
+      "file": "pokemon/359.webp",
+      "bytes": 22202,
+      "width": 475,
+      "height": 475,
+      "sha256": "5afe0fe54a55037061630f3510685d5e2a71bb697c4117be97966f9bc713cdd3",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/359.png"
+    },
+    {
+      "id": 445,
+      "file": "pokemon/445.webp",
+      "bytes": 29400,
+      "width": 475,
+      "height": 475,
+      "sha256": "4fb6cbcf54260132510db95772d28d39e901fb1908bd7c34c6e347db1293efd7",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/445.png"
+    },
+    {
+      "id": 448,
+      "file": "pokemon/448.webp",
+      "bytes": 19750,
+      "width": 475,
+      "height": 475,
+      "sha256": "aa84f85ceb027386ad33da91a568294d0445da43326c20d5e0bd464a57ce36e9",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/448.png"
+    },
+    {
+      "id": 470,
+      "file": "pokemon/470.webp",
+      "bytes": 30840,
+      "width": 475,
+      "height": 475,
+      "sha256": "adcd92a228e0679f7cf2b4cc4c85a18f4d34d9770033a9e9624489fdb4b36069",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/470.png"
+    },
+    {
+      "id": 471,
+      "file": "pokemon/471.webp",
+      "bytes": 20110,
+      "width": 475,
+      "height": 475,
+      "sha256": "f00aad4ac4861f30126bdbe41bd6bade9282881db66b750e8fd1fd5d19b5d9ee",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/471.png"
+    },
+    {
+      "id": 658,
+      "file": "pokemon/658.webp",
+      "bytes": 20604,
+      "width": 475,
+      "height": 475,
+      "sha256": "21310b6492c227093c079aee9c96887c72fada76929a2787f37db2ceae0d2ebe",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/658.png"
+    },
+    {
+      "id": 700,
+      "file": "pokemon/700.webp",
+      "bytes": 29464,
+      "width": 475,
+      "height": 475,
+      "sha256": "8cfb914dd181280a5bf85fa8723706eca47b159f9b28c080d3451258f8615223",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/700.png"
+    },
+    {
+      "id": 714,
+      "file": "pokemon/714.webp",
+      "bytes": 24772,
+      "width": 475,
+      "height": 475,
+      "sha256": "747e334bda524c80b727c8d54f06ce3eb118dcc1c96be5d02001b230a2d42f4f",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/714.png"
+    },
+    {
+      "id": 715,
+      "file": "pokemon/715.webp",
+      "bytes": 26522,
+      "width": 475,
+      "height": 475,
+      "sha256": "0440bada39593b14f235ebd52b6158605e976eb334fa38dadd2dde72fbb1067f",
+      "sourceUrl": "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/official-artwork/715.png"
+    }
+  ],
+  "checksums": {
+    "pokemon.json": "e5c914a7c005a76cb87f3a4fc72466388c97f83a4e7344d911e8e5f641a93cea",
+    "types.json": "e117174b664a27efb089ab4243b39862dacfde426da329ab4bfdad8115a03cf8",
+    "source-snapshot.json": "058189eed926f1452cc7367a857fc0a5e9cc9376f5a573ee6972a9dcf055faef"
+  }
+}

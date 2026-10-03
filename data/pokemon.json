@@ -1,0 +1,5342 @@
+[
+  {
+    "id": 658,
+    "name": "greninja",
+    "nameEn": "Greninja",
+    "nameRu": "Грениндзя",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 95,
+      "defense": 67,
+      "specialAttack": 103,
+      "specialDefense": 71,
+      "speed": 122
+    },
+    "height": 1.5,
+    "weight": 40.0,
+    "abilities": [
+      {
+        "name": "torrent",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/67/"
+      },
+      {
+        "name": "protean",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/168/"
+      }
+    ],
+    "art": "pokemon/658.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png",
+    "evolution": [
+      {
+        "id": 656,
+        "name": "froakie",
+        "nameRu": "Фроки",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/656/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png"
+      },
+      {
+        "id": 657,
+        "name": "frogadier",
+        "nameRu": "Фрогадир",
+        "parentId": 656,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 16
+          }
+        ],
+        "requirementRu": "Уровень 16",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/657/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/657.png"
+      },
+      {
+        "id": 658,
+        "name": "greninja",
+        "nameRu": "Грениндзя",
+        "parentId": 657,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 36
+          }
+        ],
+        "requirementRu": "Уровень 36",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/658/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 339,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/339/",
+      "babyTriggerItem": null
+    },
+    "generation": 6,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/658/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/658/"
+  },
+  {
+    "id": 151,
+    "name": "mew",
+    "nameEn": "Mew",
+    "nameRu": "Мью",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 100
+    },
+    "height": 0.4,
+    "weight": 4.0,
+    "abilities": [
+      {
+        "name": "synchronize",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/28/"
+      }
+    ],
+    "art": "pokemon/151.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+    "evolution": [
+      {
+        "id": 151,
+        "name": "mew",
+        "nameRu": "Мью",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/151/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 78,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/78/",
+      "babyTriggerItem": null
+    },
+    "generation": 1,
+    "isLegendary": false,
+    "isMythical": true,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/151/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/151/"
+  },
+  {
+    "id": 445,
+    "name": "garchomp",
+    "nameEn": "Garchomp",
+    "nameRu": "Гарчомп",
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "stats": {
+      "hp": 108,
+      "attack": 130,
+      "defense": 95,
+      "specialAttack": 80,
+      "specialDefense": 85,
+      "speed": 102
+    },
+    "height": 1.9,
+    "weight": 95.0,
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/8/"
+      },
+      {
+        "name": "rough-skin",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/24/"
+      }
+    ],
+    "art": "pokemon/445.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png",
+    "evolution": [
+      {
+        "id": 443,
+        "name": "gible",
+        "nameRu": "Гибл",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/443/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/443.png"
+      },
+      {
+        "id": 444,
+        "name": "gabite",
+        "nameRu": "Габит",
+        "parentId": 443,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 24
+          }
+        ],
+        "requirementRu": "Уровень 24",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/444/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/444.png"
+      },
+      {
+        "id": 445,
+        "name": "garchomp",
+        "nameRu": "Гарчомп",
+        "parentId": 444,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 48
+          }
+        ],
+        "requirementRu": "Уровень 48",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/445/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 230,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/230/",
+      "babyTriggerItem": null
+    },
+    "generation": 4,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/445/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/445/"
+  },
+  {
+    "id": 448,
+    "name": "lucario",
+    "nameEn": "Lucario",
+    "nameRu": "Лукарио",
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 70,
+      "specialAttack": 115,
+      "specialDefense": 70,
+      "speed": 90
+    },
+    "height": 1.2,
+    "weight": 54.0,
+    "abilities": [
+      {
+        "name": "steadfast",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/80/"
+      },
+      {
+        "name": "inner-focus",
+        "isHidden": false,
+        "slot": 2,
+        "url": "https://pokeapi.co/api/v2/ability/39/"
+      },
+      {
+        "name": "justified",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/154/"
+      }
+    ],
+    "art": "pokemon/448.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png",
+    "evolution": [
+      {
+        "id": 447,
+        "name": "riolu",
+        "nameRu": "Риолу",
+        "parentId": null,
+        "isBaby": true,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/447/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/447.png"
+      },
+      {
+        "id": 448,
+        "name": "lucario",
+        "nameRu": "Лукарио",
+        "parentId": 447,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "day"
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · днём",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/448/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 232,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/232/",
+      "babyTriggerItem": null
+    },
+    "generation": 4,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/448/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/448/"
+  },
+  {
+    "id": 714,
+    "name": "noibat",
+    "nameEn": "Noibat",
+    "nameRu": "Нойбат",
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 35,
+      "specialAttack": 45,
+      "specialDefense": 40,
+      "speed": 55
+    },
+    "height": 0.5,
+    "weight": 8.0,
+    "abilities": [
+      {
+        "name": "frisk",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/119/"
+      },
+      {
+        "name": "infiltrator",
+        "isHidden": false,
+        "slot": 2,
+        "url": "https://pokeapi.co/api/v2/ability/151/"
+      },
+      {
+        "name": "telepathy",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/140/"
+      }
+    ],
+    "art": "pokemon/714.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/714.png",
+    "evolution": [
+      {
+        "id": 714,
+        "name": "noibat",
+        "nameRu": "Нойбат",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/714/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/714.png"
+      },
+      {
+        "id": 715,
+        "name": "noivern",
+        "nameRu": "Нойверн",
+        "parentId": 714,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 48
+          }
+        ],
+        "requirementRu": "Уровень 48",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/715/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 367,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/367/",
+      "babyTriggerItem": null
+    },
+    "generation": 6,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/714/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/714/"
+  },
+  {
+    "id": 715,
+    "name": "noivern",
+    "nameEn": "Noivern",
+    "nameRu": "Нойверн",
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 70,
+      "defense": 80,
+      "specialAttack": 97,
+      "specialDefense": 80,
+      "speed": 123
+    },
+    "height": 1.5,
+    "weight": 85.0,
+    "abilities": [
+      {
+        "name": "frisk",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/119/"
+      },
+      {
+        "name": "infiltrator",
+        "isHidden": false,
+        "slot": 2,
+        "url": "https://pokeapi.co/api/v2/ability/151/"
+      },
+      {
+        "name": "telepathy",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/140/"
+      }
+    ],
+    "art": "pokemon/715.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png",
+    "evolution": [
+      {
+        "id": 714,
+        "name": "noibat",
+        "nameRu": "Нойбат",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/714/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/714.png"
+      },
+      {
+        "id": 715,
+        "name": "noivern",
+        "nameRu": "Нойверн",
+        "parentId": 714,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 48
+          }
+        ],
+        "requirementRu": "Уровень 48",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/715/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 367,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/367/",
+      "babyTriggerItem": null
+    },
+    "generation": 6,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/715/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/715/"
+  },
+  {
+    "id": 6,
+    "name": "charizard",
+    "nameEn": "Charizard",
+    "nameRu": "Чаризард",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "specialAttack": 109,
+      "specialDefense": 85,
+      "speed": 100
+    },
+    "height": 1.7,
+    "weight": 90.5,
+    "abilities": [
+      {
+        "name": "blaze",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/66/"
+      },
+      {
+        "name": "solar-power",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/94/"
+      }
+    ],
+    "art": "pokemon/6.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    "evolution": [
+      {
+        "id": 4,
+        "name": "charmander",
+        "nameRu": "Чармандер",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/4/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+      },
+      {
+        "id": 5,
+        "name": "charmeleon",
+        "nameRu": "Чармелеон",
+        "parentId": 4,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 16
+          }
+        ],
+        "requirementRu": "Уровень 16",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/5/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+      },
+      {
+        "id": 6,
+        "name": "charizard",
+        "nameRu": "Чаризард",
+        "parentId": 5,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 36
+          }
+        ],
+        "requirementRu": "Уровень 36",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/6/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 2,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/2/",
+      "babyTriggerItem": null
+    },
+    "generation": 1,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/6/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/6/"
+  },
+  {
+    "id": 1,
+    "name": "bulbasaur",
+    "nameEn": "Bulbasaur",
+    "nameRu": "Бульбазавр",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 45
+    },
+    "height": 0.7,
+    "weight": 6.9,
+    "abilities": [
+      {
+        "name": "overgrow",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/65/"
+      },
+      {
+        "name": "chlorophyll",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/34/"
+      }
+    ],
+    "art": "pokemon/1.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+    "evolution": [
+      {
+        "id": 1,
+        "name": "bulbasaur",
+        "nameRu": "Бульбазавр",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/1/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+      },
+      {
+        "id": 2,
+        "name": "ivysaur",
+        "nameRu": "Ивизавр",
+        "parentId": 1,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 16
+          }
+        ],
+        "requirementRu": "Уровень 16",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/2/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+      },
+      {
+        "id": 3,
+        "name": "venusaur",
+        "nameRu": "Венузавр",
+        "parentId": 2,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 32
+          }
+        ],
+        "requirementRu": "Уровень 32",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/3/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 1,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/1/",
+      "babyTriggerItem": null
+    },
+    "generation": 1,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/1/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/1/"
+  },
+  {
+    "id": 25,
+    "name": "pikachu",
+    "nameEn": "Pikachu",
+    "nameRu": "Пикачу",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 90
+    },
+    "height": 0.4,
+    "weight": 6.0,
+    "abilities": [
+      {
+        "name": "static",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/9/"
+      },
+      {
+        "name": "lightning-rod",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/31/"
+      }
+    ],
+    "art": "pokemon/25.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "evolution": [
+      {
+        "id": 172,
+        "name": "pichu",
+        "nameRu": "Пичу",
+        "parentId": null,
+        "isBaby": true,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/172/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png"
+      },
+      {
+        "id": 25,
+        "name": "pikachu",
+        "nameRu": "Пикачу",
+        "parentId": 172,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 220
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/25/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+      },
+      {
+        "id": 26,
+        "name": "raichu",
+        "nameRu": "Райчу",
+        "parentId": 25,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "thunder-stone",
+              "url": "https://pokeapi.co/api/v2/item/83/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "pikachu",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/25/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "thunder-stone",
+              "url": "https://pokeapi.co/api/v2/item/83/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "region": {
+              "name": "alola",
+              "url": "https://pokeapi.co/api/v2/region/7/"
+            },
+            "requiredPokemonForm": {
+              "name": "pikachu",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/25/"
+            },
+            "evolvedPokemonForm": {
+              "name": "raichu-alola",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/10202/"
+            }
+          }
+        ],
+        "requirementRu": "Громовой камень / Громовой камень · регион alola",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/26/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 10,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/10/",
+      "babyTriggerItem": null
+    },
+    "generation": 1,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/25/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/25/"
+  },
+  {
+    "id": 131,
+    "name": "lapras",
+    "nameEn": "Lapras",
+    "nameRu": "Лапрас",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "stats": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 80,
+      "specialAttack": 85,
+      "specialDefense": 95,
+      "speed": 60
+    },
+    "height": 2.5,
+    "weight": 220.0,
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/11/"
+      },
+      {
+        "name": "shell-armor",
+        "isHidden": false,
+        "slot": 2,
+        "url": "https://pokeapi.co/api/v2/ability/75/"
+      },
+      {
+        "name": "hydration",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/93/"
+      }
+    ],
+    "art": "pokemon/131.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+    "evolution": [
+      {
+        "id": 131,
+        "name": "lapras",
+        "nameRu": "Лапрас",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/131/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 65,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/65/",
+      "babyTriggerItem": null
+    },
+    "generation": 1,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/131/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/131/"
+  },
+  {
+    "id": 94,
+    "name": "gengar",
+    "nameEn": "Gengar",
+    "nameRu": "Генгар",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "specialAttack": 130,
+      "specialDefense": 75,
+      "speed": 110
+    },
+    "height": 1.5,
+    "weight": 40.5,
+    "abilities": [
+      {
+        "name": "cursed-body",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/130/"
+      }
+    ],
+    "art": "pokemon/94.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+    "evolution": [
+      {
+        "id": 92,
+        "name": "gastly",
+        "nameRu": "Гастли",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/92/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png"
+      },
+      {
+        "id": 93,
+        "name": "haunter",
+        "nameRu": "Хонтер",
+        "parentId": 92,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 25
+          }
+        ],
+        "requirementRu": "Уровень 25",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/93/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png"
+      },
+      {
+        "id": 94,
+        "name": "gengar",
+        "nameRu": "Генгар",
+        "parentId": 93,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "trade",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/2/"
+            }
+          }
+        ],
+        "requirementRu": "Обмен",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/94/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 40,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/40/",
+      "babyTriggerItem": null
+    },
+    "generation": 1,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/94/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/94/"
+  },
+  {
+    "id": 133,
+    "name": "eevee",
+    "nameEn": "Eevee",
+    "nameRu": "Иви",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "specialAttack": 45,
+      "specialDefense": 65,
+      "speed": 55
+    },
+    "height": 0.3,
+    "weight": 6.5,
+    "abilities": [
+      {
+        "name": "run-away",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/50/"
+      },
+      {
+        "name": "adaptability",
+        "isHidden": false,
+        "slot": 2,
+        "url": "https://pokeapi.co/api/v2/ability/91/"
+      },
+      {
+        "name": "anticipation",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/107/"
+      }
+    ],
+    "art": "pokemon/133.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+    "evolution": [
+      {
+        "id": 133,
+        "name": "eevee",
+        "nameRu": "Иви",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/133/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+      },
+      {
+        "id": 134,
+        "name": "vaporeon",
+        "nameRu": "Вапореон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "water-stone",
+              "url": "https://pokeapi.co/api/v2/item/84/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Водный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/134/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+      },
+      {
+        "id": 135,
+        "name": "jolteon",
+        "nameRu": "Джолтеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "thunder-stone",
+              "url": "https://pokeapi.co/api/v2/item/83/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Громовой камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/135/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+      },
+      {
+        "id": 136,
+        "name": "flareon",
+        "nameRu": "Флареон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "fire-stone",
+              "url": "https://pokeapi.co/api/v2/item/82/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Огненный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/136/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
+      },
+      {
+        "id": 196,
+        "name": "espeon",
+        "nameRu": "Эспеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "day",
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · днём",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/196/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png"
+      },
+      {
+        "id": 197,
+        "name": "umbreon",
+        "nameRu": "Амбреон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "night",
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · ночью",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/197/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png"
+      },
+      {
+        "id": 470,
+        "name": "leafeon",
+        "nameRu": "Лифеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "eterna-forest",
+              "url": "https://pokeapi.co/api/v2/location/8/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "pinwheel-forest",
+              "url": "https://pokeapi.co/api/v2/location/375/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "kalos-route-20",
+              "url": "https://pokeapi.co/api/v2/location/650/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "leaf-stone",
+              "url": "https://pokeapi.co/api/v2/item/85/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "petalburg-woods",
+              "url": "https://pokeapi.co/api/v2/location/438/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "lush-jungle",
+              "url": "https://pokeapi.co/api/v2/location/750/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Листовой камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/470/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png"
+      },
+      {
+        "id": 471,
+        "name": "glaceon",
+        "nameRu": "Гласеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "sinnoh-route-217",
+              "url": "https://pokeapi.co/api/v2/location/48/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "twist-mountain",
+              "url": "https://pokeapi.co/api/v2/location/380/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "frost-cavern",
+              "url": "https://pokeapi.co/api/v2/location/640/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "ice-stone",
+              "url": "https://pokeapi.co/api/v2/item/885/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "shoal-cave",
+              "url": "https://pokeapi.co/api/v2/location/445/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "mount-lanakila",
+              "url": "https://pokeapi.co/api/v2/location/775/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Ледяной камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/471/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png"
+      },
+      {
+        "id": 700,
+        "name": "sylveon",
+        "nameRu": "Сильвеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "knownMoveType": {
+              "name": "fairy",
+              "url": "https://pokeapi.co/api/v2/type/18/"
+            },
+            "minAffection": 2,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "knownMoveType": {
+              "name": "fairy",
+              "url": "https://pokeapi.co/api/v2/type/18/"
+            },
+            "minHappiness": 160,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · знать приём типа «Волшебный»",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/700/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 67,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+      "babyTriggerItem": null
+    },
+    "generation": 1,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/133/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/133/"
+  },
+  {
+    "id": 700,
+    "name": "sylveon",
+    "nameEn": "Sylveon",
+    "nameRu": "Сильвеон",
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 110,
+      "specialDefense": 130,
+      "speed": 60
+    },
+    "height": 1.0,
+    "weight": 23.5,
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/56/"
+      },
+      {
+        "name": "pixilate",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/182/"
+      }
+    ],
+    "art": "pokemon/700.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png",
+    "evolution": [
+      {
+        "id": 133,
+        "name": "eevee",
+        "nameRu": "Иви",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/133/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+      },
+      {
+        "id": 134,
+        "name": "vaporeon",
+        "nameRu": "Вапореон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "water-stone",
+              "url": "https://pokeapi.co/api/v2/item/84/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Водный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/134/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+      },
+      {
+        "id": 135,
+        "name": "jolteon",
+        "nameRu": "Джолтеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "thunder-stone",
+              "url": "https://pokeapi.co/api/v2/item/83/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Громовой камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/135/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+      },
+      {
+        "id": 136,
+        "name": "flareon",
+        "nameRu": "Флареон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "fire-stone",
+              "url": "https://pokeapi.co/api/v2/item/82/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Огненный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/136/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
+      },
+      {
+        "id": 196,
+        "name": "espeon",
+        "nameRu": "Эспеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "day",
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · днём",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/196/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png"
+      },
+      {
+        "id": 197,
+        "name": "umbreon",
+        "nameRu": "Амбреон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "night",
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · ночью",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/197/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png"
+      },
+      {
+        "id": 470,
+        "name": "leafeon",
+        "nameRu": "Лифеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "eterna-forest",
+              "url": "https://pokeapi.co/api/v2/location/8/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "pinwheel-forest",
+              "url": "https://pokeapi.co/api/v2/location/375/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "kalos-route-20",
+              "url": "https://pokeapi.co/api/v2/location/650/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "leaf-stone",
+              "url": "https://pokeapi.co/api/v2/item/85/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "petalburg-woods",
+              "url": "https://pokeapi.co/api/v2/location/438/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "lush-jungle",
+              "url": "https://pokeapi.co/api/v2/location/750/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Листовой камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/470/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png"
+      },
+      {
+        "id": 471,
+        "name": "glaceon",
+        "nameRu": "Гласеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "sinnoh-route-217",
+              "url": "https://pokeapi.co/api/v2/location/48/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "twist-mountain",
+              "url": "https://pokeapi.co/api/v2/location/380/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "frost-cavern",
+              "url": "https://pokeapi.co/api/v2/location/640/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "ice-stone",
+              "url": "https://pokeapi.co/api/v2/item/885/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "shoal-cave",
+              "url": "https://pokeapi.co/api/v2/location/445/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "mount-lanakila",
+              "url": "https://pokeapi.co/api/v2/location/775/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Ледяной камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/471/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png"
+      },
+      {
+        "id": 700,
+        "name": "sylveon",
+        "nameRu": "Сильвеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "knownMoveType": {
+              "name": "fairy",
+              "url": "https://pokeapi.co/api/v2/type/18/"
+            },
+            "minAffection": 2,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "knownMoveType": {
+              "name": "fairy",
+              "url": "https://pokeapi.co/api/v2/type/18/"
+            },
+            "minHappiness": 160,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · знать приём типа «Волшебный»",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/700/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 67,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+      "babyTriggerItem": null
+    },
+    "generation": 6,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/700/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/700/"
+  },
+  {
+    "id": 197,
+    "name": "umbreon",
+    "nameEn": "Umbreon",
+    "nameRu": "Амбреон",
+    "types": [
+      "dark"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 65,
+      "defense": 110,
+      "specialAttack": 60,
+      "specialDefense": 130,
+      "speed": 65
+    },
+    "height": 1.0,
+    "weight": 27.0,
+    "abilities": [
+      {
+        "name": "synchronize",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/28/"
+      },
+      {
+        "name": "inner-focus",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/39/"
+      }
+    ],
+    "art": "pokemon/197.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png",
+    "evolution": [
+      {
+        "id": 133,
+        "name": "eevee",
+        "nameRu": "Иви",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/133/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+      },
+      {
+        "id": 134,
+        "name": "vaporeon",
+        "nameRu": "Вапореон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "water-stone",
+              "url": "https://pokeapi.co/api/v2/item/84/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Водный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/134/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+      },
+      {
+        "id": 135,
+        "name": "jolteon",
+        "nameRu": "Джолтеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "thunder-stone",
+              "url": "https://pokeapi.co/api/v2/item/83/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Громовой камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/135/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+      },
+      {
+        "id": 136,
+        "name": "flareon",
+        "nameRu": "Флареон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "fire-stone",
+              "url": "https://pokeapi.co/api/v2/item/82/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Огненный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/136/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
+      },
+      {
+        "id": 196,
+        "name": "espeon",
+        "nameRu": "Эспеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "day",
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · днём",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/196/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png"
+      },
+      {
+        "id": 197,
+        "name": "umbreon",
+        "nameRu": "Амбреон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "night",
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · ночью",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/197/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png"
+      },
+      {
+        "id": 470,
+        "name": "leafeon",
+        "nameRu": "Лифеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "eterna-forest",
+              "url": "https://pokeapi.co/api/v2/location/8/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "pinwheel-forest",
+              "url": "https://pokeapi.co/api/v2/location/375/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "kalos-route-20",
+              "url": "https://pokeapi.co/api/v2/location/650/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "leaf-stone",
+              "url": "https://pokeapi.co/api/v2/item/85/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "petalburg-woods",
+              "url": "https://pokeapi.co/api/v2/location/438/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "lush-jungle",
+              "url": "https://pokeapi.co/api/v2/location/750/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Листовой камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/470/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png"
+      },
+      {
+        "id": 471,
+        "name": "glaceon",
+        "nameRu": "Гласеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "sinnoh-route-217",
+              "url": "https://pokeapi.co/api/v2/location/48/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "twist-mountain",
+              "url": "https://pokeapi.co/api/v2/location/380/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "frost-cavern",
+              "url": "https://pokeapi.co/api/v2/location/640/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "ice-stone",
+              "url": "https://pokeapi.co/api/v2/item/885/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "shoal-cave",
+              "url": "https://pokeapi.co/api/v2/location/445/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "mount-lanakila",
+              "url": "https://pokeapi.co/api/v2/location/775/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Ледяной камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/471/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png"
+      },
+      {
+        "id": 700,
+        "name": "sylveon",
+        "nameRu": "Сильвеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "knownMoveType": {
+              "name": "fairy",
+              "url": "https://pokeapi.co/api/v2/type/18/"
+            },
+            "minAffection": 2,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "knownMoveType": {
+              "name": "fairy",
+              "url": "https://pokeapi.co/api/v2/type/18/"
+            },
+            "minHappiness": 160,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · знать приём типа «Волшебный»",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/700/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 67,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+      "babyTriggerItem": null
+    },
+    "generation": 2,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/197/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/197/"
+  },
+  {
+    "id": 196,
+    "name": "espeon",
+    "nameEn": "Espeon",
+    "nameRu": "Эспеон",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "specialAttack": 130,
+      "specialDefense": 95,
+      "speed": 110
+    },
+    "height": 0.9,
+    "weight": 26.5,
+    "abilities": [
+      {
+        "name": "synchronize",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/28/"
+      },
+      {
+        "name": "magic-bounce",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/156/"
+      }
+    ],
+    "art": "pokemon/196.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png",
+    "evolution": [
+      {
+        "id": 133,
+        "name": "eevee",
+        "nameRu": "Иви",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/133/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+      },
+      {
+        "id": 134,
+        "name": "vaporeon",
+        "nameRu": "Вапореон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "water-stone",
+              "url": "https://pokeapi.co/api/v2/item/84/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Водный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/134/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+      },
+      {
+        "id": 135,
+        "name": "jolteon",
+        "nameRu": "Джолтеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "thunder-stone",
+              "url": "https://pokeapi.co/api/v2/item/83/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Громовой камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/135/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+      },
+      {
+        "id": 136,
+        "name": "flareon",
+        "nameRu": "Флареон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "fire-stone",
+              "url": "https://pokeapi.co/api/v2/item/82/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Огненный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/136/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
+      },
+      {
+        "id": 196,
+        "name": "espeon",
+        "nameRu": "Эспеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "day",
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · днём",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/196/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png"
+      },
+      {
+        "id": 197,
+        "name": "umbreon",
+        "nameRu": "Амбреон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "night",
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · ночью",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/197/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png"
+      },
+      {
+        "id": 470,
+        "name": "leafeon",
+        "nameRu": "Лифеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "eterna-forest",
+              "url": "https://pokeapi.co/api/v2/location/8/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "pinwheel-forest",
+              "url": "https://pokeapi.co/api/v2/location/375/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "kalos-route-20",
+              "url": "https://pokeapi.co/api/v2/location/650/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "leaf-stone",
+              "url": "https://pokeapi.co/api/v2/item/85/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "petalburg-woods",
+              "url": "https://pokeapi.co/api/v2/location/438/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "lush-jungle",
+              "url": "https://pokeapi.co/api/v2/location/750/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Листовой камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/470/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png"
+      },
+      {
+        "id": 471,
+        "name": "glaceon",
+        "nameRu": "Гласеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "sinnoh-route-217",
+              "url": "https://pokeapi.co/api/v2/location/48/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "twist-mountain",
+              "url": "https://pokeapi.co/api/v2/location/380/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "frost-cavern",
+              "url": "https://pokeapi.co/api/v2/location/640/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "ice-stone",
+              "url": "https://pokeapi.co/api/v2/item/885/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "shoal-cave",
+              "url": "https://pokeapi.co/api/v2/location/445/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "mount-lanakila",
+              "url": "https://pokeapi.co/api/v2/location/775/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Ледяной камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/471/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png"
+      },
+      {
+        "id": 700,
+        "name": "sylveon",
+        "nameRu": "Сильвеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "knownMoveType": {
+              "name": "fairy",
+              "url": "https://pokeapi.co/api/v2/type/18/"
+            },
+            "minAffection": 2,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "knownMoveType": {
+              "name": "fairy",
+              "url": "https://pokeapi.co/api/v2/type/18/"
+            },
+            "minHappiness": 160,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · знать приём типа «Волшебный»",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/700/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 67,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+      "babyTriggerItem": null
+    },
+    "generation": 2,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/196/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/196/"
+  },
+  {
+    "id": 134,
+    "name": "vaporeon",
+    "nameEn": "Vaporeon",
+    "nameRu": "Вапореон",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "specialAttack": 110,
+      "specialDefense": 95,
+      "speed": 65
+    },
+    "height": 1.0,
+    "weight": 29.0,
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/11/"
+      },
+      {
+        "name": "hydration",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/93/"
+      }
+    ],
+    "art": "pokemon/134.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+    "evolution": [
+      {
+        "id": 133,
+        "name": "eevee",
+        "nameRu": "Иви",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/133/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+      },
+      {
+        "id": 134,
+        "name": "vaporeon",
+        "nameRu": "Вапореон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "water-stone",
+              "url": "https://pokeapi.co/api/v2/item/84/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Водный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/134/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+      },
+      {
+        "id": 135,
+        "name": "jolteon",
+        "nameRu": "Джолтеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "thunder-stone",
+              "url": "https://pokeapi.co/api/v2/item/83/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Громовой камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/135/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+      },
+      {
+        "id": 136,
+        "name": "flareon",
+        "nameRu": "Флареон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "fire-stone",
+              "url": "https://pokeapi.co/api/v2/item/82/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Огненный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/136/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
+      },
+      {
+        "id": 196,
+        "name": "espeon",
+        "nameRu": "Эспеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "day",
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · днём",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/196/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png"
+      },
+      {
+        "id": 197,
+        "name": "umbreon",
+        "nameRu": "Амбреон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "night",
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · ночью",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/197/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png"
+      },
+      {
+        "id": 470,
+        "name": "leafeon",
+        "nameRu": "Лифеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "eterna-forest",
+              "url": "https://pokeapi.co/api/v2/location/8/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "pinwheel-forest",
+              "url": "https://pokeapi.co/api/v2/location/375/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "kalos-route-20",
+              "url": "https://pokeapi.co/api/v2/location/650/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "leaf-stone",
+              "url": "https://pokeapi.co/api/v2/item/85/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "petalburg-woods",
+              "url": "https://pokeapi.co/api/v2/location/438/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "lush-jungle",
+              "url": "https://pokeapi.co/api/v2/location/750/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Листовой камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/470/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png"
+      },
+      {
+        "id": 471,
+        "name": "glaceon",
+        "nameRu": "Гласеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "sinnoh-route-217",
+              "url": "https://pokeapi.co/api/v2/location/48/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "twist-mountain",
+              "url": "https://pokeapi.co/api/v2/location/380/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "frost-cavern",
+              "url": "https://pokeapi.co/api/v2/location/640/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "ice-stone",
+              "url": "https://pokeapi.co/api/v2/item/885/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "shoal-cave",
+              "url": "https://pokeapi.co/api/v2/location/445/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "mount-lanakila",
+              "url": "https://pokeapi.co/api/v2/location/775/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Ледяной камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/471/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png"
+      },
+      {
+        "id": 700,
+        "name": "sylveon",
+        "nameRu": "Сильвеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "knownMoveType": {
+              "name": "fairy",
+              "url": "https://pokeapi.co/api/v2/type/18/"
+            },
+            "minAffection": 2,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "knownMoveType": {
+              "name": "fairy",
+              "url": "https://pokeapi.co/api/v2/type/18/"
+            },
+            "minHappiness": 160,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · знать приём типа «Волшебный»",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/700/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 67,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+      "babyTriggerItem": null
+    },
+    "generation": 1,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/134/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/134/"
+  },
+  {
+    "id": 470,
+    "name": "leafeon",
+    "nameEn": "Leafeon",
+    "nameRu": "Лифеон",
+    "types": [
+      "grass"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 110,
+      "defense": 130,
+      "specialAttack": 60,
+      "specialDefense": 65,
+      "speed": 95
+    },
+    "height": 1.0,
+    "weight": 25.5,
+    "abilities": [
+      {
+        "name": "leaf-guard",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/102/"
+      },
+      {
+        "name": "chlorophyll",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/34/"
+      }
+    ],
+    "art": "pokemon/470.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png",
+    "evolution": [
+      {
+        "id": 133,
+        "name": "eevee",
+        "nameRu": "Иви",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/133/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+      },
+      {
+        "id": 134,
+        "name": "vaporeon",
+        "nameRu": "Вапореон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "water-stone",
+              "url": "https://pokeapi.co/api/v2/item/84/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Водный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/134/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+      },
+      {
+        "id": 135,
+        "name": "jolteon",
+        "nameRu": "Джолтеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "thunder-stone",
+              "url": "https://pokeapi.co/api/v2/item/83/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Громовой камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/135/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+      },
+      {
+        "id": 136,
+        "name": "flareon",
+        "nameRu": "Флареон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "fire-stone",
+              "url": "https://pokeapi.co/api/v2/item/82/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Огненный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/136/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
+      },
+      {
+        "id": 196,
+        "name": "espeon",
+        "nameRu": "Эспеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "day",
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · днём",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/196/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png"
+      },
+      {
+        "id": 197,
+        "name": "umbreon",
+        "nameRu": "Амбреон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "night",
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · ночью",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/197/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png"
+      },
+      {
+        "id": 470,
+        "name": "leafeon",
+        "nameRu": "Лифеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "eterna-forest",
+              "url": "https://pokeapi.co/api/v2/location/8/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "pinwheel-forest",
+              "url": "https://pokeapi.co/api/v2/location/375/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "kalos-route-20",
+              "url": "https://pokeapi.co/api/v2/location/650/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "leaf-stone",
+              "url": "https://pokeapi.co/api/v2/item/85/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "petalburg-woods",
+              "url": "https://pokeapi.co/api/v2/location/438/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "lush-jungle",
+              "url": "https://pokeapi.co/api/v2/location/750/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Листовой камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/470/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png"
+      },
+      {
+        "id": 471,
+        "name": "glaceon",
+        "nameRu": "Гласеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "sinnoh-route-217",
+              "url": "https://pokeapi.co/api/v2/location/48/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "twist-mountain",
+              "url": "https://pokeapi.co/api/v2/location/380/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "frost-cavern",
+              "url": "https://pokeapi.co/api/v2/location/640/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "ice-stone",
+              "url": "https://pokeapi.co/api/v2/item/885/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "shoal-cave",
+              "url": "https://pokeapi.co/api/v2/location/445/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "mount-lanakila",
+              "url": "https://pokeapi.co/api/v2/location/775/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Ледяной камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/471/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png"
+      },
+      {
+        "id": 700,
+        "name": "sylveon",
+        "nameRu": "Сильвеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "knownMoveType": {
+              "name": "fairy",
+              "url": "https://pokeapi.co/api/v2/type/18/"
+            },
+            "minAffection": 2,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "knownMoveType": {
+              "name": "fairy",
+              "url": "https://pokeapi.co/api/v2/type/18/"
+            },
+            "minHappiness": 160,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · знать приём типа «Волшебный»",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/700/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 67,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+      "babyTriggerItem": null
+    },
+    "generation": 4,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/470/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/470/"
+  },
+  {
+    "id": 471,
+    "name": "glaceon",
+    "nameEn": "Glaceon",
+    "nameRu": "Гласеон",
+    "types": [
+      "ice"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 110,
+      "specialAttack": 130,
+      "specialDefense": 95,
+      "speed": 65
+    },
+    "height": 0.8,
+    "weight": 25.9,
+    "abilities": [
+      {
+        "name": "snow-cloak",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/81/"
+      },
+      {
+        "name": "ice-body",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/115/"
+      }
+    ],
+    "art": "pokemon/471.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png",
+    "evolution": [
+      {
+        "id": 133,
+        "name": "eevee",
+        "nameRu": "Иви",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/133/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+      },
+      {
+        "id": 134,
+        "name": "vaporeon",
+        "nameRu": "Вапореон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "water-stone",
+              "url": "https://pokeapi.co/api/v2/item/84/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Водный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/134/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+      },
+      {
+        "id": 135,
+        "name": "jolteon",
+        "nameRu": "Джолтеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "thunder-stone",
+              "url": "https://pokeapi.co/api/v2/item/83/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Громовой камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/135/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+      },
+      {
+        "id": 136,
+        "name": "flareon",
+        "nameRu": "Флареон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "fire-stone",
+              "url": "https://pokeapi.co/api/v2/item/82/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Огненный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/136/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
+      },
+      {
+        "id": 196,
+        "name": "espeon",
+        "nameRu": "Эспеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "day",
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · днём",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/196/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png"
+      },
+      {
+        "id": 197,
+        "name": "umbreon",
+        "nameRu": "Амбреон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minHappiness": 160,
+            "timeOfDay": "night",
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · ночью",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/197/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png"
+      },
+      {
+        "id": 470,
+        "name": "leafeon",
+        "nameRu": "Лифеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "eterna-forest",
+              "url": "https://pokeapi.co/api/v2/location/8/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "pinwheel-forest",
+              "url": "https://pokeapi.co/api/v2/location/375/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "kalos-route-20",
+              "url": "https://pokeapi.co/api/v2/location/650/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "leaf-stone",
+              "url": "https://pokeapi.co/api/v2/item/85/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "petalburg-woods",
+              "url": "https://pokeapi.co/api/v2/location/438/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "lush-jungle",
+              "url": "https://pokeapi.co/api/v2/location/750/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Листовой камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/470/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png"
+      },
+      {
+        "id": 471,
+        "name": "glaceon",
+        "nameRu": "Гласеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "diamond-pearl",
+              "url": "https://pokeapi.co/api/v2/version-group/8/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "sinnoh-route-217",
+              "url": "https://pokeapi.co/api/v2/location/48/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "twist-mountain",
+              "url": "https://pokeapi.co/api/v2/location/380/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "frost-cavern",
+              "url": "https://pokeapi.co/api/v2/location/640/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "ice-stone",
+              "url": "https://pokeapi.co/api/v2/item/885/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "shoal-cave",
+              "url": "https://pokeapi.co/api/v2/location/445/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "location": {
+              "name": "mount-lanakila",
+              "url": "https://pokeapi.co/api/v2/location/775/"
+            },
+            "nearSpecialRock": true,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Ледяной камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/471/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png"
+      },
+      {
+        "id": 700,
+        "name": "sylveon",
+        "nameRu": "Сильвеон",
+        "parentId": 133,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "x-y",
+              "url": "https://pokeapi.co/api/v2/version-group/15/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "knownMoveType": {
+              "name": "fairy",
+              "url": "https://pokeapi.co/api/v2/type/18/"
+            },
+            "minAffection": 2,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sword-shield",
+              "url": "https://pokeapi.co/api/v2/version-group/20/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "knownMoveType": {
+              "name": "fairy",
+              "url": "https://pokeapi.co/api/v2/type/18/"
+            },
+            "minHappiness": 160,
+            "requiredPokemonForm": {
+              "name": "eevee",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/133/"
+            }
+          }
+        ],
+        "requirementRu": "Повышение уровня · высокая дружба · знать приём типа «Волшебный»",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/700/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 67,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+      "babyTriggerItem": null
+    },
+    "generation": 4,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/471/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/471/"
+  },
+  {
+    "id": 212,
+    "name": "scizor",
+    "nameEn": "Scizor",
+    "nameRu": "Сизор",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 130,
+      "defense": 100,
+      "specialAttack": 55,
+      "specialDefense": 80,
+      "speed": 65
+    },
+    "height": 1.8,
+    "weight": 118.0,
+    "abilities": [
+      {
+        "name": "swarm",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/68/"
+      },
+      {
+        "name": "technician",
+        "isHidden": false,
+        "slot": 2,
+        "url": "https://pokeapi.co/api/v2/ability/101/"
+      },
+      {
+        "name": "light-metal",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/135/"
+      }
+    ],
+    "art": "pokemon/212.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
+    "evolution": [
+      {
+        "id": 123,
+        "name": "scyther",
+        "nameRu": "Скайтер",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/123/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png"
+      },
+      {
+        "id": 212,
+        "name": "scizor",
+        "nameRu": "Сизор",
+        "parentId": 123,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "trade",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/2/"
+            },
+            "heldItem": {
+              "name": "metal-coat",
+              "url": "https://pokeapi.co/api/v2/item/210/"
+            }
+          }
+        ],
+        "requirementRu": "Обмен · с предметом «Металлическое покрытие»",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/212/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png"
+      },
+      {
+        "id": 900,
+        "name": "kleavor",
+        "nameRu": "Кливор",
+        "parentId": 123,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "legends-arceus",
+              "url": "https://pokeapi.co/api/v2/version-group/24/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "black-augurite",
+              "url": "https://pokeapi.co/api/v2/item/2230/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            }
+          }
+        ],
+        "requirementRu": "Чёрный авгит",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/900/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/900.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 58,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/58/",
+      "babyTriggerItem": null
+    },
+    "generation": 2,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/212/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/212/"
+  },
+  {
+    "id": 248,
+    "name": "tyranitar",
+    "nameEn": "Tyranitar",
+    "nameRu": "Тиранитар",
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 134,
+      "defense": 110,
+      "specialAttack": 95,
+      "specialDefense": 100,
+      "speed": 61
+    },
+    "height": 2.0,
+    "weight": 202.0,
+    "abilities": [
+      {
+        "name": "sand-stream",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/45/"
+      },
+      {
+        "name": "unnerve",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/127/"
+      }
+    ],
+    "art": "pokemon/248.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
+    "evolution": [
+      {
+        "id": 246,
+        "name": "larvitar",
+        "nameRu": "Ларвитар",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/246/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/246.png"
+      },
+      {
+        "id": 247,
+        "name": "pupitar",
+        "nameRu": "Пупитар",
+        "parentId": 246,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 30
+          }
+        ],
+        "requirementRu": "Уровень 30",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/247/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/247.png"
+      },
+      {
+        "id": 248,
+        "name": "tyranitar",
+        "nameRu": "Тиранитар",
+        "parentId": 247,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "gold-silver",
+              "url": "https://pokeapi.co/api/v2/version-group/3/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 55
+          }
+        ],
+        "requirementRu": "Уровень 55",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/248/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 126,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/126/",
+      "babyTriggerItem": null
+    },
+    "generation": 2,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/248/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/248/"
+  },
+  {
+    "id": 149,
+    "name": "dragonite",
+    "nameEn": "Dragonite",
+    "nameRu": "Драгонайт",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "stats": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 80
+    },
+    "height": 2.2,
+    "weight": 210.0,
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/39/"
+      },
+      {
+        "name": "multiscale",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/136/"
+      }
+    ],
+    "art": "pokemon/149.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+    "evolution": [
+      {
+        "id": 147,
+        "name": "dratini",
+        "nameRu": "Дратини",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/147/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png"
+      },
+      {
+        "id": 148,
+        "name": "dragonair",
+        "nameRu": "Драгонэйр",
+        "parentId": 147,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 30
+          }
+        ],
+        "requirementRu": "Уровень 30",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/148/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png"
+      },
+      {
+        "id": 149,
+        "name": "dragonite",
+        "nameRu": "Драгонайт",
+        "parentId": 148,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minLevel": 55
+          }
+        ],
+        "requirementRu": "Уровень 55",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/149/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 76,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/76/",
+      "babyTriggerItem": null
+    },
+    "generation": 1,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/149/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/149/"
+  },
+  {
+    "id": 38,
+    "name": "ninetales",
+    "nameEn": "Ninetales",
+    "nameRu": "Найнтейлс",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "hp": 73,
+      "attack": 76,
+      "defense": 75,
+      "specialAttack": 81,
+      "specialDefense": 100,
+      "speed": 100
+    },
+    "height": 1.1,
+    "weight": 19.9,
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/18/"
+      },
+      {
+        "name": "drought",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/70/"
+      }
+    ],
+    "art": "pokemon/38.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+    "evolution": [
+      {
+        "id": 37,
+        "name": "vulpix",
+        "nameRu": "Вульпикс",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/37/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png"
+      },
+      {
+        "id": 38,
+        "name": "ninetales",
+        "nameRu": "Найнтейлс",
+        "parentId": 37,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "red-blue",
+              "url": "https://pokeapi.co/api/v2/version-group/1/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "fire-stone",
+              "url": "https://pokeapi.co/api/v2/item/82/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "sun-moon",
+              "url": "https://pokeapi.co/api/v2/version-group/17/"
+            },
+            "isDefault": true,
+            "item": {
+              "name": "ice-stone",
+              "url": "https://pokeapi.co/api/v2/item/885/"
+            },
+            "trigger": {
+              "name": "use-item",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+            },
+            "requiredPokemonForm": {
+              "name": "vulpix-alola",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/10205/"
+            },
+            "evolvedPokemonForm": {
+              "name": "ninetales-alola",
+              "url": "https://pokeapi.co/api/v2/pokemon-form/10206/"
+            }
+          }
+        ],
+        "requirementRu": "Огненный камень",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/38/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 15,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/15/",
+      "babyTriggerItem": null
+    },
+    "generation": 1,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/38/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/38/"
+  },
+  {
+    "id": 350,
+    "name": "milotic",
+    "nameEn": "Milotic",
+    "nameRu": "Милотик",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 60,
+      "defense": 79,
+      "specialAttack": 100,
+      "specialDefense": 125,
+      "speed": 81
+    },
+    "height": 6.2,
+    "weight": 162.0,
+    "abilities": [
+      {
+        "name": "marvel-scale",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/63/"
+      },
+      {
+        "name": "competitive",
+        "isHidden": false,
+        "slot": 2,
+        "url": "https://pokeapi.co/api/v2/ability/172/"
+      },
+      {
+        "name": "cute-charm",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/56/"
+      }
+    ],
+    "art": "pokemon/350.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/350.png",
+    "evolution": [
+      {
+        "id": 349,
+        "name": "feebas",
+        "nameRu": "Фибас",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/349/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/349.png"
+      },
+      {
+        "id": 350,
+        "name": "milotic",
+        "nameRu": "Милотик",
+        "parentId": 349,
+        "isBaby": false,
+        "requirements": [
+          {
+            "versionGroup": {
+              "name": "ruby-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/5/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minBeauty": 170
+          },
+          {
+            "versionGroup": {
+              "name": "black-white",
+              "url": "https://pokeapi.co/api/v2/version-group/11/"
+            },
+            "isDefault": true,
+            "trigger": {
+              "name": "trade",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/2/"
+            },
+            "heldItem": {
+              "name": "prism-scale",
+              "url": "https://pokeapi.co/api/v2/item/580/"
+            }
+          },
+          {
+            "versionGroup": {
+              "name": "omega-ruby-alpha-sapphire",
+              "url": "https://pokeapi.co/api/v2/version-group/16/"
+            },
+            "isDefault": false,
+            "trigger": {
+              "name": "level-up",
+              "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+            },
+            "minBeauty": 170
+          }
+        ],
+        "requirementRu": "Обмен · с предметом «Прекрасная чешуя»",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/350/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/350.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 178,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/178/",
+      "babyTriggerItem": null
+    },
+    "generation": 3,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/350/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/350/"
+  },
+  {
+    "id": 359,
+    "name": "absol",
+    "nameEn": "Absol",
+    "nameRu": "Абсол",
+    "types": [
+      "dark"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "specialAttack": 75,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "height": 1.2,
+    "weight": 47.0,
+    "abilities": [
+      {
+        "name": "pressure",
+        "isHidden": false,
+        "slot": 1,
+        "url": "https://pokeapi.co/api/v2/ability/46/"
+      },
+      {
+        "name": "super-luck",
+        "isHidden": false,
+        "slot": 2,
+        "url": "https://pokeapi.co/api/v2/ability/105/"
+      },
+      {
+        "name": "justified",
+        "isHidden": true,
+        "slot": 3,
+        "url": "https://pokeapi.co/api/v2/ability/154/"
+      }
+    ],
+    "art": "pokemon/359.webp",
+    "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png",
+    "evolution": [
+      {
+        "id": 359,
+        "name": "absol",
+        "nameRu": "Абсол",
+        "parentId": null,
+        "isBaby": false,
+        "requirements": [],
+        "requirementRu": "Базовая стадия",
+        "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/359/",
+        "artSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png"
+      }
+    ],
+    "evolutionChain": {
+      "id": 185,
+      "url": "https://pokeapi.co/api/v2/evolution-chain/185/",
+      "babyTriggerItem": null
+    },
+    "generation": 3,
+    "isLegendary": false,
+    "isMythical": false,
+    "speciesUrl": "https://pokeapi.co/api/v2/pokemon-species/359/",
+    "pokemonUrl": "https://pokeapi.co/api/v2/pokemon/359/"
+  }
+]

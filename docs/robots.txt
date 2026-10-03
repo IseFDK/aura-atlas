@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /qa.html
+Sitemap: https://isefdk.github.io/aura-atlas/sitemap.xml
