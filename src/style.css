@@ -12,3 +12,6 @@
 @media(max-width:600px){.site-header{min-height:78px;padding-top:14px;padding-bottom:14px}.site-nav{top:100%}.hero,.hero-inner{min-height:780px}.hero-image{object-position:67% 100%}}
 @media(max-width:350px){.hero,.hero-inner{min-height:735px}}
 .glyph{display:inline-block;width:1em;height:1em;vertical-align:-.13em;flex:none;overflow:visible}.glyph-heart{vertical-align:-.16em}.button .glyph,.text-link .glyph{width:1.05em;height:1.05em}.add-member .glyph{width:16px;height:16px}.coverage-values .glyph{width:9px;height:9px;vertical-align:-.1em}
+/* Preserve flow when text is enlarged, including saved-note labels. */
+.button{max-width:100%}.text-link{max-width:100%;white-space:normal;flex-wrap:wrap}.note-card{min-width:0}.hero-bottom{flex-wrap:wrap}
+@media(max-width:600px){.hero-copy{padding-bottom:18rem}}
