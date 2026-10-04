@@ -1,5 +1,5 @@
-import {replaceGlyphs} from './glyphs.mjs?v=7100a4796085';
-import {TYPE_RU,escapeHTML} from './logic.mjs?v=7100a4796085';
+import {replaceGlyphs} from './glyphs.mjs?v=9c6bec3139b2';
+import {TYPE_RU,escapeHTML} from './logic.mjs?v=9c6bec3139b2';
 export const number=id=>String(id).padStart(3,'0');
 export function badges(types){return types.map(t=>`<span class="type-badge type-${t}">${TYPE_RU[t]??t}</span>`).join('');}
 export function pokemonCard(p,root='',{team=true,compact=false}={}){return replaceGlyphs(`<article class="pokemon-card ${compact?'compact':''}" data-pokemon="${p.id}"><div class="card-top"><span class="mono">№ ${number(p.id)}</span><span class="card-generation">GEN ${p.generation}</span></div><a class="pokemon-art" href="${root}species/${p.name}.html" aria-label="Открыть карточку: ${escapeHTML(p.nameRu)}"><span class="art-ring" aria-hidden="true"></span><img src="${root}${p.art}" width="440" height="440" alt="${escapeHTML(p.nameRu)} — официальная иллюстрация" loading="lazy" decoding="async"></a><div class="pokemon-info"><a href="${root}species/${p.name}.html"><span class="pokemon-en mono">${escapeHTML(p.name)}</span><h3>${escapeHTML(p.nameRu)}</h3></a><div class="type-row">${badges(p.types)}</div></div>${team?`<button class="add-member" data-add="${p.id}" type="button" aria-label="Добавить ${escapeHTML(p.nameRu)} в команду"><span>В команду</span><span aria-hidden="true">＋</span></button>`:''}</article>`);}

@@ -489,3 +489,31 @@ test('decorative symbols render as accessible-hidden vector icons rather than mi
   }
   assert.doesNotMatch(read(path.join(docs, 'dex.html')), /<option[^>]*>[^<]*<svg/);
 });
+
+test('detail page kinds remain separate from their active navigation sections', () => {
+  for (const p of pokemon) {
+    const html = read(path.join(docs, `species/${p.name}.html`));
+    assert.match(html, /<body data-page="species"/);
+    assert.match(html, /href="\.\.\/dex\.html" aria-current="page"/);
+  }
+  for (const n of content.NOTES) {
+    const html = read(path.join(docs, `notes/${n.id}.html`));
+    assert.match(html, /<body data-page="note"/);
+    assert.match(html, /href="\.\.\/expeditions\.html" aria-current="page"/);
+  }
+});
+
+test('species bootstrap skips absent catalog controls while preserving global team actions', () => {
+  const h = appHarness('species', { [TEAM]: '[658]' });
+  assert.equal(h.get('#dex-q').listeners.input, undefined);
+  h.delegated('data-add', '151');
+  assert.deepEqual(JSON.parse(h.stored[TEAM]), [658, 151]);
+});
+
+test('article bootstrap skips the planner and notebook while preserving saved-note controls', () => {
+  const h = appHarness('note', { [SAVED]: '[]' });
+  assert.equal(h.get('#field-note').listeners.input, undefined);
+  h.saveButtons[0].emit('click');
+  assert.equal(h.saveButtons[0].getAttribute('aria-pressed'), 'true');
+  assert.deepEqual(JSON.parse(h.stored[SAVED]), ['before-the-leap']);
+});
