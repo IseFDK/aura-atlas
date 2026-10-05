@@ -1,5 +1,5 @@
-import {TYPE_RU,multiplier} from './logic.f1404832fe66.mjs';
-import {badges} from './view.f1404832fe66.mjs';
+import {TYPE_RU,multiplier} from './logic.051161c57bf9.mjs';
+import {badges} from './view.051161c57bf9.mjs';
 // A small, dependable type lesson. No GPU, animation, external model or network.
 export function mountScanner(host,pokemon,chart){
   if(!host)return;

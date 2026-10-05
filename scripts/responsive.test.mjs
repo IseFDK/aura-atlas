@@ -93,3 +93,9 @@ test('responsive and keyboard affordances remain visible in source and every pub
     }
   }
 });
+
+test('reading-path headings retain word boundaries when mobile CSS hides line breaks', () => {
+  const html = read('docs/expeditions.html').split('<div class="path-grid">')[1].split('</div></section>')[0];
+  const headings = [...html.matchAll(/<h2>(.*?)<\/h2>/gs)].map(([, heading]) => heading.replace(/<br\s*\/?\s*>/g, '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim());
+  assert.deepEqual(headings, ['Почему Грениндзя уязвим?', 'От Нойбата до Нойверна', 'Кто прикроет Лукарио?']);
+});
