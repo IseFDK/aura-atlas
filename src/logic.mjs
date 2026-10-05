@@ -12,3 +12,5 @@ export function filtersQuery(state){const p=new URLSearchParams();for(const [key
 export function parseStored(text,fallback){try{return JSON.parse(text)??fallback;}catch{return fallback;}}
 export function expeditionSuggestion(mode,list){const candidates={water:[658,350,134],mountain:[445,448,715],forest:[1,196,470]};return (candidates[mode]??candidates.water).filter(id=>list.some(p=>p.id===id));}
 export function escapeHTML(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+// Named defensive outcomes, separate from the original count-only public API.
+export function defenseMembers(ids,list,chart,type){return sanitizeTeam(ids,list).map(id=>{const p=list.find(p=>p.id===id);return {id,name:p.name,nameRu:p.nameRu,multiplier:multiplier(type,p.types,chart)};});}

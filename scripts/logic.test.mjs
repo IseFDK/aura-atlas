@@ -5,7 +5,7 @@ import { readFileSync, statSync } from 'node:fs';
 import {
   TYPE_RU, STAT_RU, normalize, filterPokemon, statTotal, multiplier,
   sanitizeTeam, addMember, analyzeTeam, parseFilters, filtersQuery,
-  parseStored, expeditionSuggestion, escapeHTML,
+  parseStored, expeditionSuggestion, escapeHTML, defenseMembers,
 } from '../src/logic.mjs';
 
 const root = new URL('../', import.meta.url);
@@ -15,6 +15,11 @@ const types = readJSON('types.json');
 const snapshot = readJSON('source-snapshot.json');
 const provenance = readJSON('provenance.json');
 const artManifest = readJSON('art-manifest.json');
+const relatedPokemon = readJSON('related-pokemon.json');
+const relatedSnapshot = readJSON('related-source-snapshot.json');
+const relatedProvenance = readJSON('related-provenance.json');
+const relatedArt = readJSON('related-art-manifest.json');
+const allPokemon = [...pokemon, ...relatedPokemon].sort((a, b) => a.id - b.id);
 const byId = new Map(pokemon.map(p => [p.id, p]));
 const defaults = { q: '', type: 'all', generation: 'all', sort: 'id' };
 const ids = result => result.map(p => p.id);
@@ -69,7 +74,7 @@ test('all 324 single-type chart entries agree with the independent defensive rel
 
 test('all roster/type combinations multiply both defending types, preserving immunities', () => {
   for (const attacker of types) {
-    for (const p of pokemon) {
+    for (const p of allPokemon) {
       const expected = p.types.reduce((value, defender) => value * defensiveValue(attacker.name, defender), 1);
       assert.equal(multiplier(attacker.name, p.types, chart), expected, `${attacker.name} → ${p.name}`);
       if (p.types.some(defender => defensiveValue(attacker.name, defender) === 0)) {
@@ -272,9 +277,10 @@ test('canonical roster includes 24 unique standard forms and all 18 supported ty
 
 test('all species stats, types, units, abilities and generations match the offline canonical snapshot', () => {
   const romans = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix'];
-  for (const p of pokemon) {
-    const source = snapshot.pokemon[`pokemon/${p.id}`];
-    const species = snapshot.pokemon[`pokemon-species/${p.id}`];
+  for (const p of allPokemon) {
+    const recordSnapshot = byId.has(p.id) ? snapshot : relatedSnapshot;
+    const source = recordSnapshot.pokemon[`pokemon/${p.id}`];
+    const species = recordSnapshot.pokemon[`pokemon-species/${p.id}`];
     assert.equal(p.name, source.name);
     assert.deepEqual(p.stats, Object.fromEntries(source.stats.map(stat => [camel(stat.stat.name), stat.base_stat])));
     assert.deepEqual(p.types, [...source.types].sort((a, b) => a.slot - b.slot).map(type => type.type.name));
@@ -313,10 +319,11 @@ test('complete evolution families preserve source node order, parents and popula
     if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([k, v]) => [k, absoluteValue(v)]));
     return typeof value === 'string' && value.startsWith('/api/') ? absolute(value) : value;
   };
-  for (const p of pokemon) {
-    const species = snapshot.pokemon[`pokemon-species/${p.id}`];
+  for (const p of allPokemon) {
+    const recordSnapshot = byId.has(p.id) ? snapshot : relatedSnapshot;
+    const species = recordSnapshot.pokemon[`pokemon-species/${p.id}`];
     const chainId = Number(species.evolution_chain.url.split('/').filter(Boolean).at(-1));
-    const source = snapshot.chains[String(chainId)];
+    const source = recordSnapshot.chains[String(chainId)];
     const flattened = [];
     const visit = (node, parentId = null) => {
       const id = Number(node.species.url.split('/').filter(Boolean).at(-1));
@@ -375,5 +382,60 @@ test('provenance checksums and local transparent artwork manifest are internally
     assert.equal(enriched.file, asset.file);
     assert.equal(enriched.sha256, createHash('sha256').update(readFileSync(new URL(`public/${asset.file}`, root))).digest('hex'));
     assert.equal(enriched.sourceUrl, provenance.files.find(source => source.resource === 'official-artwork' && source.id === asset.id).url);
+  }
+});
+
+
+test('related species close exactly the existing evolution families without changing the curated roster', () => {
+  const closure = new Set(pokemon.flatMap(p => p.evolution.map(stage => stage.id)));
+  assert.equal(closure.size, 47);
+  assert.equal(relatedPokemon.length, 23);
+  assert.equal(new Set(allPokemon.map(p => p.id)).size, 47);
+  assert.deepEqual(new Set(allPokemon.map(p => p.id)), closure);
+  assert.ok(relatedPokemon.every(p => !byId.has(p.id)));
+  assert.deepEqual(relatedPokemon.map(p => [p.id, p.nameRu]), relatedSnapshot.roster);
+  for (const p of allPokemon) assert.ok(p.evolution.every(stage => closure.has(stage.id)), p.name);
+});
+
+test('related provenance and all 23 local art assets match the offline source and checksums', () => {
+  assert.equal(relatedProvenance.scope.species, 23);
+  assert.equal(relatedProvenance.scope.curatedSpecies, 24);
+  assert.equal(relatedProvenance.scope.evolutionClosureSpecies, 47);
+  assert.deepEqual(relatedProvenance.files, relatedSnapshot.sources);
+  assert.equal(relatedArt.length, 23);
+  assert.equal(new Set(relatedArt.map(p => p.id)).size, 23);
+  for (const [name, expected] of Object.entries(relatedProvenance.checksums)) assert.equal(createHash('sha256').update(readFileSync(new URL(`data/${name}`, root))).digest('hex'), expected, name);
+  for (const p of relatedPokemon) {
+    for (const resource of ['pokemon', 'pokemon-species', 'official-artwork']) {
+      const record = relatedProvenance.files.find(source => source.resource === resource && source.id === p.id);
+      assert.ok(record, `${resource}/${p.id}`);
+      assert.match(record.sha, /^[a-f0-9]{40}$/);
+      assert.match(record.url, /^https:\/\/github\.com\/PokeAPI\/(?:api-data|sprites)\/blob\/master\//);
+    }
+    assert.ok(relatedProvenance.files.some(source => source.resource === 'evolution-chain' && source.id === p.evolutionChain.id));
+    const art = relatedArt.find(asset => asset.id === p.id), record = relatedProvenance.artwork.find(asset => asset.id === p.id);
+    assert.ok(art); assert.deepEqual(record, art);
+    assert.equal(art.file, p.art);
+    assert.equal(statSync(new URL(`public/${art.file}`, root)).size, art.bytes);
+    assert.ok(art.bytes > 0 && art.bytes < 90 * 1024);
+    assert.equal(art.width, 475); assert.equal(art.height, 475);
+    assert.equal(createHash('sha256').update(readFileSync(new URL(`public/${art.file}`, root))).digest('hex'), art.sha256);
+  }
+});
+
+test('named defensive outcomes preserve roster order and identify exact weak/resistant/immune members', () => {
+  const team = [445, 715, 448, 94, 658, 700];
+  assert.deepEqual(defenseMembers(team, allPokemon, chart, 'ice').map(p => [p.id, p.nameRu, p.multiplier]), [
+    [445, 'Гарчомп', 4], [715, 'Нойверн', 4], [448, 'Лукарио', .5], [94, 'Генгар', 1], [658, 'Грениндзя', .5], [700, 'Сильвеон', 1],
+  ]);
+  assert.deepEqual(defenseMembers([448, 448, 99999, '715', 900], allPokemon, chart, 'poison').map(p => [p.id, p.multiplier]), [[448, 0], [715, 1], [900, .5]]);
+  assert.deepEqual(defenseMembers([], allPokemon, chart, 'fire'), []);
+  for (const attack of types.map(t => t.name)) {
+    const names = defenseMembers(team, allPokemon, chart, attack);
+    const counts = analyzeTeam(team, allPokemon, chart).find(row => row.type === attack);
+    assert.equal(names.filter(p => p.multiplier > 1).length, counts.weak);
+    assert.equal(names.filter(p => p.multiplier < 1).length, counts.strong);
+    assert.equal(names.filter(p => p.multiplier === 0).length, counts.immune);
+    for (const p of names) assert.equal(p.multiplier, allPokemon.find(x => x.id === p.id).types.reduce((value, type) => value * defensiveValue(attack, type), 1));
   }
 });
